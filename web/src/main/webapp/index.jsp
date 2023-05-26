@@ -10,34 +10,62 @@
 <head>
   <title>Shapes</title>
   <style>
-    .shape {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-      margin: 10px;
-    }
-
-    .circle {
-      border-radius: 50%;
-    }
-
-    .square {
-      border-radius: 0;
-    }
-
-    .triangle {
-      width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid blue;
-    }
-  </style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        
+        .fun-fact {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .fun-fact h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .fun-fact p {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <div class="shape circle"></div>
-  <div class="shape square"></div>
-  <div class="shape triangle"></div>
+<h1>Welcome to an Interesting Page!</h1>
+    
+    <div class="fun-fact">
+        <h2>Did You Know?</h2>
+        <p>The Earth's circumference is approximately 40,075 kilometers (24,901 miles).</p>
+    </div>
+    
+    <div class="fun-fact">
+        <h2>Fun Fact</h2>
+        <p>Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!</p>
+    </div>
+    
+    <div class="fun-fact">
+        <h2>Trivia</h2>
+        <p>The world's oldest known living tree is named "Methuselah" and is over 4,800 years old. It is located in the White Mountains of California.</p>
+    </div>
   <h1>Super Simpl Web Page</h1>
   <p>
     This is a very simple example web page on a JSP.
