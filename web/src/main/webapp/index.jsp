@@ -66,7 +66,7 @@
         <h2>Trivia</h2>
         <p>The world's oldest known living tree is named "Methuselah" and is over 4,800 years old. It is located in the White Mountains of California.</p>
     </div>
-  <h1>Super Simpl Web Page</h1>
+  <h1>DEVOPS_JENKINS_INTEGRATE_K8</h1>
   <p>
     This is a very simple example web page on a JSP.
   </p>
